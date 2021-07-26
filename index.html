@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>My CV</h1>
+    </header>
+    <main>
+        <section class="name">
+            <article class="name_info">
+            <h2 class="heading">My name and Contact information</h2>
+            <ul>
+                <li>Name: Nikita Novitski</li>
+                <li>Age: 26</li>
+                <li>Contacts:
+                    <ul>
+                        <li>phone: +375291917754</li>
+                        <li>email: nikita.novitski@gmail.com</li>
+                    </ul>
+                </li>
+            </ul>
+            </article>
+            <img class="myphoto" src="myphoto.jpg" alt="photo">
+        </section>
+        <section class="info_yorself">
+            <h2 class="heading">Brief information about yourself</h2>
+            <ul>
+                <li>What about my character, I am a kind person.</li>
+                <li>I am a reliable person.</li>
+                <li>Hard-working</li>
+                <li>Sociable</li>
+                <li>Friendly</li>
+                <li>Diligent</li>
+            </ul>
+        </section>
+        <section class="skill">
+            <h2 class="heading">Skills</h2>
+            <ul>
+                <li>Html/css</li>
+                <li>First level Java Script</li>
+                <li>I take courses in Front-end development</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="heading">Code examples</h2>
+            <a href="https://www.codewars.com/kata/554e4a2f232cdd87d9000038/train/javascript">
+                link to sample code</a>
+            <pre>
+       function DNAStrand(dna) {
+       let mas = dna.split('');
+       for (let i = 0; i < mas.length; i++) {
+        if (mas[i] === 'A') {
+            mas[i] = 'T';
+        } else if (mas[i] === 'T') {
+            mas[i] = 'A';
+        } else if (mas[i] === 'G') {
+            mas[i] = 'C';
+        }else if (mas[i] === 'C') {
+            mas[i] = 'G';
+        }
+       }
+       let result = mas.join('');
+       return result;
+         }
+        </pre>
+
+        </section>
+        <section>
+            <h2 class="heading">Completed the initial course</h2>
+            <ul>
+                <li>Completed the initial course on the resource yandex praktikum</li>
+                <li>got the skills of website layout (html/css)</li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="heading">Education and English</h2>
+            <pre>
+            I have a higher education as an electrical engineer
+
+            Unfortunately, the level of English is at an initial
+            level, but soon it will become noticeably higher
+        </pre>
+        </section>
+    </main>
+    <footer>
+        <section class="link">
+        <a href="https://github.com/NikkiNovs">My link to GitHub</a>
+       <a href="https://rs.school/js/"><img class="logo_link" src="rs_school_js.svg" alt="logo"></a>
+        </section>
+        <section class="date">
+<p>2021&copy;</p>
+        </section>
+    </footer>
+</div>
+</body>
+</html>
